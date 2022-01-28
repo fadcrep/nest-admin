@@ -12,7 +12,6 @@ export class PermissionController {
   @Get()
   async all(): Promise<Permission[]>{
     return this.permissionService.all();
-
   }
 
  
